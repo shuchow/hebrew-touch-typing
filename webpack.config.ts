@@ -10,6 +10,7 @@ module.exports = {
     filename: 'main.bundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: PUBLIC_PATH,
+    hashFunction: 'xxhash64',
   },
   devServer: {
     contentBase: './dist',
